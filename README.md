@@ -42,9 +42,9 @@ On the University of Canterbury campus, the model:
 
 ## Interactive demo
 
-![Demo screenshot](figures/demo_screenshot.png)
+![Demo in action](figures/demo.gif)
 
-Pick a sample tile or upload your own top-down aerial image, adjust the confidence threshold, and compare the prediction with the ground truth.
+*The Gradio app: pick a sample tile or upload your own top-down aerial image, adjust the confidence threshold, and compare the prediction with the ground truth. A hosted live version is coming soon; for now it runs locally.*
 
 ### Run it locally
 
@@ -67,7 +67,7 @@ Then open http://127.0.0.1:7860. It runs on CPU (about 2 seconds per tile) or GP
 app.py            Gradio web demo
 inference.py      model loading, prediction and drawing
 samples/          sample tiles and their ground-truth outlines
-figures/          result figures
+figures/          result figures and demo recording
 ```
 
 ## Credits
