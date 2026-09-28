@@ -1,0 +1,8 @@
+torch>=2.1
+torchvision>=0.16
+gradio>=4.0
+numpy
+pillow
+opencv-python-headless
+pycocotools
+huggingface_hub

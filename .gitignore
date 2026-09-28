@@ -1,0 +1,6 @@
+# model weights are never committed
+weights/
+*.pt
+*.pth
+__pycache__/
+.env
