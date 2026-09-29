@@ -4,6 +4,8 @@ Automatically outlining buildings in high-resolution aerial photos of Christchur
 
 Developed as a scholarship-funded summer research project with **Earth Sciences New Zealand (ESNZ)**, as part of my Master of Applied Data Science at the University of Canterbury.
 
+**[▶ Try the live demo](https://huggingface.co/spaces/WilliamTheUltimate/aerial-building-segmentation)**: pick a sample tile or upload an aerial image and see the model outline the buildings.
+
 ![Sample predictions](figures/sample_predictions.png)
 
 *Left to right: aerial image, ground-truth building outlines (LINZ), model prediction. Purple = confident prediction, blue = less confident.*
@@ -42,9 +44,11 @@ On the University of Canterbury campus, the model:
 
 ## Interactive demo
 
+**[▶ Try the live demo on Hugging Face](https://huggingface.co/spaces/WilliamTheUltimate/aerial-building-segmentation)** (it runs on a free CPU, so the first load after a quiet spell can take about a minute)
+
 ![Demo in action](figures/demo.gif)
 
-*The Gradio app: pick a sample tile or upload your own top-down aerial image, adjust the confidence threshold, and compare the prediction with the ground truth. A hosted live version is coming soon; for now it runs locally.*
+*The Gradio app: pick a sample tile or upload your own top-down aerial image, adjust the confidence threshold, and compare the prediction with the ground truth.*
 
 ### Run it locally
 
